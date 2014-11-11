@@ -1,0 +1,17 @@
+# TEAM
+
+Designer & Developer: Jake Asiddao
+Site: http://jakeasiddao.ca
+Twitter: @jakeasiddao
+Behance: http://behance.net/jakeasiddao
+Location: Ottawa, Canada
+Email: jakeasiddao@gmail.com
+
+# THANKS
+
+Big thanks to Thomas J Bradley for helping with development
+
+# TECHNOLOGY
+
+- Brackets
+- GitHub
