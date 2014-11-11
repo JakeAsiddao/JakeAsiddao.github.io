@@ -22,37 +22,64 @@ height:50px;
 background-color:rgb(255, 255, 255);
 position:fixed;
 width:100%;
-    
+z-index: 2000;
 }
 
 header ul {
-margin-top: -38px;
-float: right;
-}
-
-header ul li {
-display: inline;
-margin:0rem 10px;
-font-family:'lato', sans-serif;
-font-weight:400;
-font-size:14px;
-text-decoration: none;
+width:100%;
+background-color:rgb(255, 255, 255);
+height: 46rem;
+text-align: center;
+font-family: 'lato', sans-serif;
 }
 
 header ul li a {
 text-decoration: none;
 color: black;
+text-align: center;
+padding: 28px 80px;
 }
+
+header ul li{
+font-size: 3rem;
+font-weight: 800;
+padding: 2rem 0;
+border-bottom-width: 1px;
+border-bottom-style: solid;
+border-bottom-color: #e6e6e6;
+}
+
 
 header ul li a:hover {
 color: #ccc;
 }
 
-.nav {
+.nav-mobile {
 margin: 0 auto;
 font-family: 'lato', sans-serif;
-width: 80%;
 margin-top: -6px;
+position:relative;
+width: 90%;
+}
+
+
+.nav-btn,
+.nav-btn:link,
+.nav-btn:visited{
+height: 35px;
+width: 35px;
+position: absolute;
+top: -5px;	
+right: 0%;
+background: rgba(255, 255, 255, 0) url('../assets/nav-toggle-01.svg') no-repeat center center;
+}  
+
+.nav-top {
+display: none;  
+}
+
+.nav-top[data-state="expanded"] {
+display: block;
 }
 
 .banner {
@@ -88,6 +115,81 @@ padding-top: 18rem;
 width: 75px;
 }
 
+.thumbnail {
+width: 100%;
+}
+
+.work img{
+background-color: black;    
+}
 .work {
  height: 45rem;   
+}
+
+.work a:hover{
+opacity: .3;
+}
+
+@media only screen and (min-width: 35em) {
+
+.nav-btn{
+display:none;        
+}
+    
+.nav-top {
+ display: block;
+    z-index: 1000;
+    position: relative;
+}
+    
+header ul li {
+display: inline;
+margin:0rem 10px;
+font-family:'lato', sans-serif;
+font-weight:400;
+font-size:14px;
+padding:0;
+text-decoration: none;
+border-bottom: none;
+}
+    
+header ul li a {
+padding:0;        
+}
+    
+header ul {
+margin-top: -39px;
+height: 100%;
+width: 96%;
+background-color: rgba(255, 255, 255, 0);
+text-align:right;
+}
+    
+header {
+height:50px;
+background-color:rgb(255, 255, 255);
+position:fixed;
+width:100%;
+}
+
+header ul li a {
+text-decoration: none;
+color: black;
+}
+
+header ul li a:hover {
+color: #ccc;
+}
+
+.nav {
+font-family: 'lato', sans-serif;
+width: 90%;
+margin-top: -6px;
+position:relative;
+}
+
+.nav {
+padding-right: 0;   
+}
+    
 }
