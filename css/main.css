@@ -27,15 +27,16 @@ z-index: 2000;
 
 header ul {
 width:100%;
-background-color:rgb(255, 255, 255);
+background-color:rgba(0, 0, 0,.86);
+
 height: 46rem;
 text-align: center;
 font-family: 'lato', sans-serif;
 }
 
 header ul li a {
+color:white;
 text-decoration: none;
-color: black;
 text-align: center;
 padding: 28px 80px;
 }
@@ -46,12 +47,12 @@ font-weight: 800;
 padding: 2rem 0;
 border-bottom-width: 1px;
 border-bottom-style: solid;
-border-bottom-color: #e6e6e6;
+border-bottom-color: #535353;
 }
 
 
 header ul li a:hover {
-color: #ccc;
+color: #67d6e3;
 }
 
 .nav-mobile {
@@ -80,6 +81,8 @@ display: none;
 
 .nav-top[data-state="expanded"] {
 display: block;
+margin-top: -8px
+
 }
 
 .banner {
