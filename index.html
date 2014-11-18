@@ -30,7 +30,11 @@
 </head>
 <body>
     
-    <header>
+    <div id="container">
+    
+        <div id="header">
+        
+        <header>
         
             <div class="nav nav-mobile"> 
         
@@ -42,25 +46,40 @@
      
         <nav class="nav-top" data-state="collapsed">
                 <ul class="nav-toggle">
-					<li><a href="index.html">WORK</a></li>
-					<li><a href="profile.html">ABOUT</a></li>
-					<li><a href="about.html">CONTACT</a></li>
+					<li><a href="#body">WORK</a></li>
+					<li><a href="#about">ABOUT</a></li>
+					<li><a href="#footer">CONTACT</a></li>
+                    
+                    <div class="social-nav">
+                        <ul>
+                        <li><a href=""><img src="assets/behance.svg"></a></li>
+                        <li><a href=""><img src="assets/twitter.svg"></a></li>
+                        <li><a href=""><img src="assets/instagram-01.svg"></a></li>
+                        </ul>
+                    </div>
+                    
 				</ul>
+            
         
      </nav>
     
     </header>
-    
+            
+            </div>
+        
         <section class="banner">
             
             <nav class="banner-content">
-                <img class="logo" src="assets/logo-01.svg" alt="">
+                <img class="logo" src="assets/logo.svg" alt="">
                 <h1>CREATOR<br>OF THINGS</h1>
+                <img class='arrow' src="assets/arrow.svg" alt="">
             
             </nav>
         
         </section>
     
+        <div id="body">
+        
         <section class="work">
         
             <a href="#" class="img-hover"><img class="thumbnail" src="assets/artwork-1.jpg" alt=""></a>
@@ -69,16 +88,59 @@
             
             <a href="#" class="img-hover"><img class="thumbnail" src="assets/artwork-3.jpg" alt=""></a>
             
-        </section>
-    
-        <section class="about">
+            <a href="#" class="img-hover"><img class="thumbnail" src="assets/artwork-5.jpg" alt=""></a>
             
-           
+            <a href="#" class="img-hover"><img class="thumbnail" src="assets/artwork-4.jpg" alt=""></a>
+            
+            <a href="#" class="img-hover"><img class="thumbnail" src="assets/artwork-2.jpg" alt=""></a>
+            
         </section>
+            
+        <div id="about">
+        
+            <h2> A little about me</h2>
+            
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus congue egestas eros sed tempor. Ut congue, augue nec dignissim accumsan, quam sapien facilisis diam, vel malesuada urna augue ac arcu. Aenean quis ipsum odio. Mauris dignissim lorem eget velit consequat, tincidunt rhoncus nisi rhoncus.</p>
+            
+        
+        </div>
     
-        <section class="contact">
-           
-        </section>
+          </div>
+        
+        <div id="footer">
+            
+            <h2>Keep in touch</h2>
+            
+            <p>Need some work done? <br>Want to collaborate on some projects? <br>Want to grab a cup of coffee? <br>Let's keep in touch. </p>
+            
+            <div class="contact-info">
+            <p>mobile: 613-794-4053<br>email: jakeasiddao@gmail.com</p>
+            </div>
+                
+            <p class="email"><a href="#">email me</a></p>
+          
+                <nav class="nav-bottom" data-state="collapsed">
+                
+                    <div class="social-nav">
+                        <ul>
+                        <li><a href=""><img src="assets/behance.svg"></a></li>
+                        <li><a href=""><img src="assets/twitter.svg"></a></li>
+                        <li><a href=""><img src="assets/instagram-01.svg"></a></li>
+                        </ul>
+                    </div>
+                    
+                    <ul class="nav-toggle">
+					   <li><a href="#body">WORK</a></li>
+					   <li><a href="#about">ABOUT</a></li>
+					   <li><a href="#footer">CONTACT</a></li>
+                    </ul>
+            
+        
+     </nav>
+        
+        </div>
+    
+    </div>
     
     <script src="js/nav.js"></script>
 </body>
