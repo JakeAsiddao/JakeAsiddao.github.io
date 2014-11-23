@@ -22,8 +22,10 @@ height:50px;
 background-color:rgba(255, 255, 255,.95);
 position:fixed;
 width:100%;
-z-index: 2000;
+z-index: 300000;
 }
+
+
 
 .nav-top {
 width:100%;
@@ -72,6 +74,7 @@ font-weight: 400;
 
 header ul li a:hover {
 color: #67d6e3;
+transition: all 120ms linear;
 }
 
 .nav-mobile {
@@ -92,15 +95,18 @@ position: absolute;
 top: -5px;	
 right: 0%;
 background: rgba(255, 255, 255, 0) url('../assets/nav-toggle-01-01.svg') no-repeat center center;
-} 
+}
 
 .nav-top {
-display: none;  
+opacity: 0;
+margin-top:-20px;
 }
 
 .nav-top[data-state="expanded"] {
+opacity: 1;
 display: block;
-margin-top: -8px
+margin-top: -8px;
+transition: all 250ms linear;
 }
 
 .banner {
@@ -110,7 +116,7 @@ background: url("../assets/banner.jpg")  no-repeat center center fixed;
 -o-background-size: cover;
 background-size: cover;
 width: 100%;
-height: 47rem;
+height: 48rem;
 }
 
 .banner-content {
@@ -133,7 +139,7 @@ margin-top:20px;
 display: block;
 margin-left: auto;
 margin-right: auto;
-padding-top: 16rem;
+padding-top: 18rem;
 width: 60px;
 }
 
@@ -151,6 +157,11 @@ width: 100%;
 
 .work a:hover{
 opacity: .3;
+transition: all 180ms linear;
+}
+
+.work a{
+bottom: 0;
 }
 
 body {
@@ -174,8 +185,8 @@ padding-bottom:;   /* Height of the footer */
 
 #about {
 width:100%;
-height:600px;   /* Height of the footer */
-background:white;
+height:1310px;   /* Height of the footer */
+background:#fafafa;
 }
 
 #about h2{
@@ -184,7 +195,7 @@ text-align: center;
 color: #000;
 font-family: 'lato',sans-serif;
 font-size: 28px;
-padding-top: 40px;
+padding-top: 80px;
 }
 
 #about p {
@@ -195,22 +206,40 @@ font-weight: 400;
 margin-top: 0;
 width: 90%;
 margin: 0 auto;
-font-size: 16px
+font-size: 16px;
+word-spacing: 2px;
+}
+
+#about .what {
+padding-top: 30px;   
+}
+
+.focus-section {
+width:200px;
+height: 300px;
+margin: 2rem auto;
+background-color: #ccc;
+padding: 2rem 0;
 }
 
 #footer {
+background: url("../assets/footer-banner.jpg")  no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+width: 100%;
 position: absolute;
-height: 600px;
+height: 680px;
 background-color: black;
 width: 100%;
 }
 
 #footer h2{
 color: white;
-font-family: 'lato', sans-serif;
 font-family: 'lato',sans-serif;
 font-size: 28px;
-padding-top: 40px;
+padding-top: 80px;
 margin: 0;
 text-align:center;
 }
@@ -228,6 +257,21 @@ text-align:center;
 padding-top: 22px;
 }
 
+#footer .contact-info {
+margin-top: 30px;  
+}
+
+#footer .contact-info p{
+font-weight: 400;
+font-size: 20px;
+line-height: 26px;
+width: 286px;
+border-top-style:solid;
+border-top-width:1px;
+border-top-color: #4d4d4d;
+padding-bottom: 10px;
+}
+
 #footer p a{
 text-decoration: none;
 color: white;
@@ -236,6 +280,7 @@ padding: 8px 80px;
 border-style: solid;
 border-color: white;
 border-width: 1px;
+transition: all 120ms linear;
 }
 
 #footer p a:hover {
@@ -244,17 +289,34 @@ border-width: 1px;
 
 .nav-bottom {
 text-align: center;
-padding-top: 40px;
+padding-top: 30px;
+}
+
+.nav-bottom .social-nav a{
+color: white;
+font-family: 'lato', sans-serif;
+text-decoration: none;
+}
+
+.nav-bottom .social-nav a:hover{
+color: #ccc;
+transition: all 120ms linear;
 }
 
 .nav-bottom .nav-toggle a {
-color: white;
+color: #a5a5a5;
 font-family: 'lato', sans-serif;
 font-size: 10px;
 text-decoration: none;
-padding: 0 24px;
+padding: 0 10px;
 font-weight: 200;
-margin-top: 100px;
+transition: all 120ms linear;
+}
+
+
+.nav-bottom img {
+width: 40px;
+margin-bottom: 10px
 }
 
 .nav-bottom .nav-toggle a:hover {
@@ -266,7 +328,7 @@ display: inline;
 }
 
 .nav-bottom .social-nav {
-padding-bottom: 40px;   
+padding-bottom: 100px;   
 }
 
 .nav-bottom .social-nav img {
@@ -278,6 +340,10 @@ padding:0 10px;
 }
 
 @media only screen and (min-width: 35em) {
+    
+.nav-top {
+opacity: 1;
+}
 
 .nav-bottom .social-nav {
  display: inline;   
@@ -354,6 +420,54 @@ position:relative;
 
 .nav {
 padding-right: 0;   
+}
+
+    
+.nav-bottom .logo{
+margin-top: 100px;
+}
+    
+}
+
+@media only screen and (min-width: 46em) {
+    
+#about {
+ height: 680px;   
+}
+    
+.focus{
+text-align: center;
+}
+    
+.focus-section{
+display: inline-block;
+margin: 40px 10px;
+}
+    
+#about p{
+ width:60%;   
+}
+    
+}
+
+@media only screen and (min-width: 50em) {
+    
+.focus-section{
+display: inline-block;
+margin: 40px 30px;
+}
+
+}
+
+@media only screen and (min-width: 66em) {
+ 
+.focus-section{
+display: inline-block;
+margin: 40px 40px;
+}    
+    
+#about {
+height:660px;   
 }
     
 }
