@@ -49,6 +49,12 @@ padding: 0 10px;
 display: inline;
 }
 
+.social-nav img:hover {
+opacity: .3;
+transition: all 120ms linear;
+
+}
+
 .nav-toggle ul li a {
 color:white;
 text-decoration: none;
@@ -71,6 +77,26 @@ padding-top: 12px;
 
 header h2 {
 font-weight: 400;    
+}
+
+header h2 a {
+font-weight: 400;
+text-decoration: none;
+color: black;
+}
+
+header h2 a:hover {
+font-weight: 400;
+text-decoration: none;
+color: black;
+opacity: .3;
+transition: all 120ms linear;
+}
+
+header h2 a:visited{
+font-weight: 400;
+text-decoration: none;
+color: black;
 }
 
 header ul li a:hover {
@@ -123,6 +149,11 @@ height: 48rem;
 .banner-content {
 display: block;
 height: 45rem;
+}
+
+h1 .bold {
+font-weight: 500;
+font-style: italic;
 }
 
 .banner-content h1 {
@@ -182,7 +213,7 @@ transition: all 120ms linear;
 background-color: black;   
 }
 
-.work a:hover{
+.work .thumbnail a:hover{
 opacity: .3;
 transition: all 180ms linear;
 
@@ -191,6 +222,92 @@ transition: all 180ms linear;
 .work a{
 bottom: 0;
 }
+
+/** LIGHTBOX MARKUP **/
+
+.lightbox {
+	/** Default lightbox to hidden */
+	display: none;
+
+	/** Position and style */
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,0.8);
+    text-decoration: none;
+    color: white;
+    font-family: 'lato',sans-serif;
+}
+
+.lightbox img {
+	/** Pad the lightbox image */
+max-width:100%;
+display:inline;
+
+}
+
+.lightbox:target {
+	/** Remove default browser outline */
+	outline: none;
+
+	/** Unhide lightbox **/
+	display: inline-block;
+    opacity: 1;
+    transition: all 620ms linear;
+
+}
+
+.lbox-images {
+float: left;
+width: 60%;
+height: 100%;
+}
+
+.lbox-body h3 {
+font-size: 30px;
+line-height: 32px;
+}
+
+.lbox-body {
+text-decoration: none;
+float: right;
+width: 40%;
+word-spacing:4px;
+line-height: 20px;
+letter-spacing: 1px;
+text-align: left;
+padding-left: 20px;
+font-weight: 300;
+}
+
+.bottom-line {
+height: 3px;
+width: 50px;
+background-color: white;
+display: inline-block;
+padding-left: 20px;
+}
+
+.lbox-container {
+ height: 660px;
+margin: 0 auto;
+width: 95%;
+margin-top: 5rem;
+overflow:auto;
+/*
+border-width: 1px;
+border-style: solid;
+border-color: rgba(255, 255, 255, 0.27);
+border-radius: 10px;
+*/
+
+
+}
+
 
 body {
 margin:0;
@@ -332,12 +449,12 @@ transition: all 120ms linear;
 }
 
 #footer p a:hover {
- background-color: #313131;   
+opacity: .4;   
 }
 
 .nav-bottom {
 text-align: center;
-padding-top: 30px;
+padding-top: 40px;
 }
 
 .nav-bottom .social-nav a{
@@ -507,6 +624,33 @@ margin-top: 100px;
 }
 
 @media only screen and (min-width: 46em) {
+    
+.banner-content h1 {
+font-size: 80px;
+font-family: 'lato', sans-serif;
+font-weight: 100;
+text-align: center;
+color: white;
+letter-spacing: 3px;
+word-spacing: 10px;
+margin-top:20px;
+}
+    
+.banner-content .logo{
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-top: 15rem;
+width: 60px;
+}
+
+.arrow{
+ width:45px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+padding-top: 10rem;
+}
     
 #about {
  height: 650px;   
