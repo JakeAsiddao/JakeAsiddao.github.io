@@ -143,12 +143,11 @@ background: url("../assets/banner.jpg")  no-repeat center center fixed;
 -o-background-size: cover;
 background-size: cover;
 width: 100%;
-height: 40rem;
+height: 30rem;
 }
 
 .banner-content {
 display: block;
-height: 45rem;
 }
 
 h1 .bold {
@@ -171,7 +170,7 @@ margin-top:20px;
 display: block;
 margin-left: auto;
 margin-right: auto;
-padding-top: 14rem;
+padding-top: 10rem;
 width: 60px;
 }
 
@@ -180,7 +179,7 @@ width: 60px;
 display: block;
 margin-left: auto;
 margin-right: auto;
-padding-top: 14rem;
+padding-top: 5rem;
 }
 
 .thumbnail {
