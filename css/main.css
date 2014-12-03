@@ -275,13 +275,16 @@ line-height: 32px;
 .lbox-body {
 text-decoration: none;
 float: right;
-width: 40%;
+width: 36%;
 word-spacing:4px;
 line-height: 20px;
 letter-spacing: 1px;
 text-align: left;
 padding-left: 20px;
 font-weight: 300;
+position: fixed;
+right: 3.5%;
+pointer-events: none;
 }
 
 .bottom-line {
@@ -441,7 +444,7 @@ padding-bottom: 10px;
 text-decoration: none;
 color: white;
 font-size: 20px;
-padding: 8px 80px;
+padding: 8px 60px;
 border-style: solid;
 border-color: white;
 border-width: 1px;
