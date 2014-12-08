@@ -38,6 +38,7 @@ font-family: 'lato', sans-serif;
 .nav-top a{
 text-decoration: none;
 color: white;
+border: none;
 }
 
 .social-nav img {
@@ -66,9 +67,6 @@ font-weight: 300;
 header ul li{
 font-size: 1rem;
 padding: 12px 0;
-border-bottom-width: .5px;
-border-bottom-style: solid;
-border-bottom-color: #535353;
 }
 
 header ul {
