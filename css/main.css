@@ -266,6 +266,10 @@ height: 100%;
 margin-top: 2em;
 }
 
+.lbox-images img {
+margin-bottom: 20px;    
+}
+
 .lbox-body h3 {
 font-size: 30px;
 line-height: 32px;
@@ -584,7 +588,7 @@ height: 48rem;
 }
     
 .banner-content h1 {
-font-size: 80px;
+font-size: 100px;
 font-family: 'lato', sans-serif;
 font-weight: 100;
 text-align: center;
@@ -598,7 +602,7 @@ margin-top:20px;
 display: block;
 margin-left: auto;
 margin-right: auto;
-padding-top: 15rem;
+padding-top: 14rem;
 width: 60px;
 }
 
@@ -607,7 +611,7 @@ width: 60px;
 display: block;
 margin-left: auto;
 margin-right: auto;
-padding-top: 10rem;
+padding-top: 8rem;
 }
     
 #about {
@@ -702,6 +706,10 @@ display:inline;
 float: left;
 width: 60%;
 height: 100%;
+}
+
+.lbox-images img {
+margin-bottom: 20px;    
 }
 
 .lbox-body h3 {
