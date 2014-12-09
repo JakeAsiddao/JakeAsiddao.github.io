@@ -533,6 +533,26 @@ padding: 0;
  color: black;   
 }
   
+header h2 a {
+font-weight: 400;
+text-decoration: none;
+color: black;
+}
+
+header h2 a:hover {
+font-weight: 400;
+text-decoration: none;
+color: black;
+opacity: .3;
+transition: all 120ms linear;
+}
+
+header h2 a:visited{
+font-weight: 400;
+text-decoration: none;
+color: black;
+}    
+    
 header ul li {
 display: inline;
 margin:0rem 10px;
@@ -660,7 +680,26 @@ margin-top: 100px;
 }
 
 @media only screen and (min-width: 46em) {
-    
+
+header h2 a {
+font-weight: 400;
+text-decoration: none;
+color: black;
+}
+
+header h2 a:hover {
+font-weight: 400;
+text-decoration: none;
+color: black;
+opacity: .3;
+transition: all 120ms linear;
+}
+
+header h2 a:visited{
+font-weight: 400;
+text-decoration: none;
+color: black;
+}
     
 /** LIGHTBOX MARKUP **/
 
@@ -789,6 +828,26 @@ word-spacing: 2px;
 
 @media only screen and (min-width: 50em) {
     
+header h2 a {
+font-weight: 400;
+text-decoration: none;
+color: black;
+}
+
+header h2 a:hover {
+font-weight: 400;
+text-decoration: none;
+color: black;
+opacity: .3;
+transition: all 120ms linear;
+}
+
+header h2 a:visited{
+font-weight: 400;
+text-decoration: none;
+color: black;
+}
+    
 #about .me {
 color: #000;
 font-family: 'lato',sans-serif;
@@ -812,6 +871,26 @@ background:white;
 
 @media only screen and (min-width: 66em) {
  
+header h2 a {
+font-weight: 400;
+text-decoration: none;
+color: black;
+}
+
+header h2 a:hover {
+font-weight: 400;
+text-decoration: none;
+color: black;
+opacity: .3;
+transition: all 120ms linear;
+}
+
+header h2 a:visited{
+font-weight: 400;
+text-decoration: none;
+color: black;
+}
+    
 #about .me {
 color: #000;
 font-family: 'lato',sans-serif;
