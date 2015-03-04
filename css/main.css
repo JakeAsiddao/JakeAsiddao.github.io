@@ -182,12 +182,22 @@ word-spacing: 3px;
 margin-top:20px;
 }
 
+/*
 .banner-content .logo{
 display: block;
 margin-left: auto;
 margin-right: auto;
 padding-top: 10rem;
 width: 60px;
+}
+*/
+
+.banner-content img {
+ display: block;
+margin-left:auto;
+margin-right: auto;
+padding-top: 14rem;
+width: 80%;   
 }
 
 .arrow{
@@ -634,12 +644,22 @@ word-spacing: 2px;
 margin-top:20px;
 }
 
+/*
 .banner-content .logo{
 display: block;
 margin-left: auto;
 margin-right: auto;
 padding-top: 14rem;
 width: 60px;
+}
+*/
+    
+.banner-content img {
+ display: block;
+margin-left:auto;
+margin-right: auto;
+padding-top: 18rem;
+width: 80%;   
 }
 
 .arrow{
@@ -786,6 +806,14 @@ position: fixed;
 right: 3.5%;
 pointer-events: none;
 }
+    
+.banner-content img {
+ display: block;
+margin-left:auto;
+margin-right: auto;
+padding-top: 16rem;
+width: 70%;   
+}
 
 .bottom-line {
 height: 3px;
@@ -866,6 +894,14 @@ text-decoration: none;
 color: black;
 }
     
+.banner-content img {
+ display: block;
+margin-left:auto;
+margin-right: auto;
+padding-top: 16rem;
+width: 70%;   
+}
+    
 #about .me {
 color: #000;
 font-family: 'lato',sans-serif;
@@ -903,6 +939,14 @@ opacity: .3;
 transition: all 120ms linear;
 }
 
+.banner-content img {
+ display: block;
+margin-left:auto;
+margin-right: auto;
+padding-top: 16rem;
+width: 50%;   
+}    
+    
 header h2 a:visited{
 font-weight: 400;
 text-decoration: none;
