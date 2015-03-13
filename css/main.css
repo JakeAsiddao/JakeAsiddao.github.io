@@ -116,7 +116,11 @@ color: black;
 }
 
 header ul li a:hover {
-color: #67d6e3;
+border-bottom-color: black;
+border-bottom-style: solid;
+border-bottom-width: 2px;
+/*color: #67d6e3;*/
+padding-bottom:5px;
 transition: all 120ms linear;
 }
 
