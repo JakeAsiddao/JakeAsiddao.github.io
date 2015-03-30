@@ -41,6 +41,7 @@ background-color:#fff;
 position:fixed;
 width:100%;
 z-index: 300000;
+margin-top: -20px;
 }
 
 
@@ -159,6 +160,10 @@ height: 32rem;
 display: block;
 }
 
+h1 {
+padding-top: 6em;   
+}
+
 h1 .bold {
 font-weight: 500;
 font-style: italic;
@@ -166,7 +171,7 @@ font-style: italic;
 
 .banner-content h1 {
 font-size: 40px;
-font-family: 'lato', sans-serif;
+font-family: 'lato', 'helvetica', sans-serif;
 font-weight: 100;
 text-align: center;
 color: white;
@@ -175,31 +180,24 @@ word-spacing: 3px;
 margin-top:20px;
 }
 
-/*
-.banner-content .logo{
-display: block;
-margin-left: auto;
-margin-right: auto;
-padding-top: 10rem;
-width: 60px;
+.banner-content p{
+ color: white;
+font-family: 'lato','helvetica', sans-serif;
+text-align: center;
+font-size: 10px;
+margin-top: -2em;
 }
-*/
 
-.banner-content img {
- display: block;
-margin-left:auto;
-margin-right: auto;
-padding-top: 12rem;
-width: 100%;   
-}
 
 .arrow{
- width:45px;
+ width:20px;
 display: block;
 margin-left: auto;
 margin-right: auto;
-padding-top: 7rem;
+padding-top: 10px;
 }
+
+
 
 .thumbnail {
 width: 100%;
@@ -657,7 +655,7 @@ height: 48rem;
 }
     
 .banner-content h1 {
-font-size: 100px;
+font-size: 50px;
 font-family: 'lato', sans-serif;
 font-weight: 100;
 text-align: center;
@@ -667,31 +665,15 @@ word-spacing: 2px;
 margin-top:20px;
 }
 
-/*
-.banner-content .logo{
+.arrow{
+ width:20px;
 display: block;
 margin-left: auto;
 margin-right: auto;
-padding-top: 14rem;
-width: 60px;
-}
-*/
-    
-.banner-content img {
- display: block;
-margin-left:auto;
-margin-right: auto;
-padding-top: 18rem;
-width: 80%;   
+padding-top: 10px;
 }
 
-.arrow{
- width:45px;
-display: block;
-margin-left: auto;
-margin-right: auto;
-padding-top: 8rem;
-}
+
     
 #about {
 width:100%;
@@ -841,13 +823,6 @@ right: 3.5%;
 pointer-events: none;
 }
     
-.banner-content img {
- display: block;
-margin-left:auto;
-margin-right: auto;
-padding-top: 16rem;
-width: 70%;   
-}
 
 .bottom-line {
 height: 3px;
@@ -930,13 +905,6 @@ text-decoration: none;
 color: black;
 }
     
-.banner-content img {
- display: block;
-margin-left:auto;
-margin-right: auto;
-padding-top: 16rem;
-width: 70%;   
-}
     
 #about .me {
 color: #6C7A89 !important;
@@ -975,15 +943,7 @@ text-decoration: none;
 color: black;
 opacity: .3;
 transition: all 120ms linear;
-}
-
-.banner-content img {
- display: block;
-margin-left:auto;
-margin-right: auto;
-padding-top: 16rem;
-width: 50%;   
-}    
+} 
     
 header h2 a:visited{
 font-weight: 400;
