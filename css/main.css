@@ -253,10 +253,11 @@ bottom: 0;
 	text-align: center;
 	top: 0;
 	left: 0;
-	background: rgba(0,0,0,0.8);
+	background: rgba(255, 255, 255, 0.94);
     text-decoration: none;
     color: white;
     font-family: 'lato',sans-serif;
+    font-weight: 400;
 }
 
 .lightbox img {
@@ -290,6 +291,7 @@ margin-bottom: 20px;
 .lbox-body h3 {
 font-size: 30px;
 line-height: 32px;
+color: #6C7A89;
 }
 
 .lbox-body {
@@ -300,14 +302,14 @@ line-height: 20px;
 letter-spacing: 1px;
 text-align: left;
 margin: 0 auto;
-font-weight: 300;
 pointer-events: none;
+color: #6C7A89;
 }
 
 .bottom-line {
 height: 3px;
 width: 50px;
-background-color: white;
+background-color: #6C7A89;
 display: inline-block;
 padding-left: 20px;
 }
@@ -453,9 +455,9 @@ margin-top: 30px;
 font-weight: 400;
 font-size: 20px;
 line-height: 26px;
-width: 286px;
+width: 260px;
 border-top-style:solid;
-border-top-width:1px;
+border-top-width:4px;
 border-top-color: white;
 padding-bottom: 10px;
 }
@@ -757,23 +759,6 @@ color: black;
     
 /** LIGHTBOX MARKUP **/
 
-.lightbox {
-	/** Default lightbox to hidden */
-	display: none;
-
-	/** Position and style */
-	position: fixed;
-	z-index: 999;
-	width: 100%;
-	height: 100%;
-	text-align: center;
-	top: 0;
-	left: 0;
-	background: rgba(0,0,0,0.8);
-    text-decoration: none;
-    color: white;
-    font-family: 'lato',sans-serif;
-}
 
 .lightbox img {
 	/** Pad the lightbox image */
@@ -817,7 +802,6 @@ line-height: 20px;
 letter-spacing: 1px;
 text-align: left;
 padding-left: 20px;
-font-weight: 300;
 position: fixed;
 right: 3.5%;
 pointer-events: none;
@@ -827,7 +811,7 @@ pointer-events: none;
 .bottom-line {
 height: 3px;
 width: 50px;
-background-color: white;
+background-color: #6C7A89;
 display: inline-block;
 padding-left: 20px;
 }
