@@ -257,6 +257,10 @@ width: 70px;
 padding-top: 40px;
 }
 
+.work-content img:hover {
+opacity: .6;  
+}
+
 .work-content a:hover{
 text-decoration: none;
 opacity: .4;
