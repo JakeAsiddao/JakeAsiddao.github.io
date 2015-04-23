@@ -282,11 +282,17 @@ margin: 0 auto;
 
 #about h2{
 text-align: center;
-color: #22A7F0;
+color: #6C7A89;
 font-family: 'lato',sans-serif;
 font-size: 28px;
       margin: 0;
   padding-bottom: 40px;
+}
+
+mark.blah {
+    color:#ff4e4e;
+    background: none;
+    font-weight: 600;
 }
 
 #about .me {
@@ -308,7 +314,7 @@ color: #6C7A89;
 .focus-content{
 margin: 0 auto;
 padding: 100px 0;
-max-width: 80%;
+max-width: 100%;
 }
 
 .focus img {
@@ -327,6 +333,11 @@ font-family: 'lato',sans-serif;
 color: #8d8d8d;
 }
 
+.focus-section {
+text-align: center;
+padding: 0 40px;   
+}
+
 .focus-content p {
 margin: 0 auto;
 font-family: 'lato',sans-serif;
@@ -335,8 +346,7 @@ font-size: 14px;
 word-spacing: 2px;
 line-height: 22px;
 width: 80%;
-color: #8d8d8d; 
-    
+color: #8d8d8d;  
 }
 
 #footer {
@@ -558,7 +568,7 @@ text-align:right;
     
 header {
 height:50px;
-background-color:#fff;
+background-color:rgb(255, 255, 255);
 position:fixed;
 width:100%;
 padding: 0 40px;
@@ -671,13 +681,17 @@ max-width: 800px;
  
 #about h2{
 text-align: center;
-color: #22A7F0;
+color: #6C7A89;
 font-family: 'lato',sans-serif;
 font-size: 40px;
 margin: 0;
 padding-bottom: 40px;
 }    
-
+    
+.focus-content {  
+max-width: 100%;
+}
+    
 .focus-section p {
 margin: 0 auto;
 font-family: 'lato',sans-serif;x    
