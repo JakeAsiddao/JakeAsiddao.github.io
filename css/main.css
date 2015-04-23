@@ -220,27 +220,27 @@ background-color: #white;
 .work-content{  
 margin: 0 auto;
 padding: 100px 0;
-max-width: 700px;
+max-width: 80%;
 }
 
 .work-content h2{
 margin: 0 auto;
-width: 60%;
+width: 100%;
 padding-bottom: 40px;
 font-family: 'lato',sans-serif;
 font-weight: 800;
 text-align: center;    
 color: #ff4e4e;
-font-size: 40px;
+font-size: 24px;
 }
 
 .work-content p{
 color: #8d8d8d;
 font-family: 'lato',sans-serif;
-line-height: 40px;
+line-height: 28px;
 font-weight: 400;
 margin-top: 0;
-font-size: 24px;
+font-size: 16px;
 text-align: center;   
 }
 
@@ -258,12 +258,14 @@ padding-top: 40px;
 }
 
 .work-content img:hover {
-opacity: .6;  
+transform: rotateZ(14deg);
+transition: all 100ms linear;
 }
 
 .work-content a:hover{
 text-decoration: none;
 opacity: .4;
+transition: all 100ms linear;
 }
 
 
@@ -504,10 +506,8 @@ margin-top:-68px !important;
 }
 
 .nav-top a{
-color: white;
-margin: 0 -12px;
-padding: 17px 40px;
-background-color: rgb(13, 199, 255);
+color: black;
+padding: 17px 20px;
 }
   
 header h2 a {
@@ -532,7 +532,6 @@ color: black;
     
 header ul li {
 display: inline;
-margin:9rem 10px;
 font-family:'lato', sans-serif;
 font-weight:400;
 font-size:14px;
@@ -541,6 +540,8 @@ font-size:14px;
     
 header ul li a {
 color: black;
+text-decoration: none;
+
 padding:0;
 }
     
@@ -556,20 +557,12 @@ height:50px;
 background-color:#fff;
 position:fixed;
 width:100%;
-}
-    
-header h2 a {
-padding-left: 2em;
-}
-
-header ul li a {
-text-decoration: none;
-color: black;
+padding: 0 40px;
 }
     
 
 header ul li a:hover {
-background-color:rgba(13, 199, 255, 0.34);
+color: #ff4e4e;
 
 }
     
@@ -600,6 +593,51 @@ display: block;
 margin-left: auto;
 margin-right: auto;
 padding-top: 10px;
+}
+    
+#work {
+max-width: 100%;
+background-color: #white;
+}
+
+.work-content{  
+margin: 0 auto;
+padding: 100px 0;
+max-width: 800px;
+}
+
+.work-content h2{
+margin: 0 auto;
+width: 60%;
+padding-bottom: 40px;
+font-family: 'lato',sans-serif;
+font-weight: 800;
+text-align: center;    
+color: #ff4e4e;
+font-size: 40px;
+}
+
+.work-content p{
+color: #8d8d8d;
+font-family: 'lato',sans-serif;
+line-height: 40px;
+font-weight: 400;
+margin-top: 0;
+font-size: 24px;
+text-align: center;   
+}
+
+.work-content a{
+text-decoration: none;
+color: #ff4e4e;
+opacity: 1;
+}
+
+.work-content img {
+margin: 0 auto;
+display: block;
+width: 70px;
+padding-top: 40px;
 }
 
 #about {
@@ -633,7 +671,6 @@ line-height: 22px;
 .nav {
 font-family: 'lato', sans-serif;
 width: 90%;
-margin-top: -6px;
 position:relative;
 }
 
