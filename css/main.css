@@ -164,7 +164,8 @@ display: block;
 }
 
 h1 {
-padding-top: 6em;   
+padding-top: 6em;
+text-align: center;
 }
 
 h1 .bold {
@@ -384,9 +385,13 @@ padding-bottom: 20px;
  padding-top: 100px;   
 }
 
+#footer .contact ul{
+max-width: 200px;   
+}
 
 .contact ul li{
-font-size: 14px;  
+font-size: 14px;
+text-align: left;
 }
 
 #footer .email a{
@@ -404,6 +409,24 @@ transition: all 120ms linear;
 
 #footer p a:hover {
 opacity: .4;   
+}
+
+.footer-social img {
+ width: 30px;   
+}
+
+.footer-social li{
+ display: inline;
+padding: 0 20px;
+}
+
+.footer-social a:hover{
+opacity: .5; 
+transition: all 100ms linear;
+}
+
+li i {
+padding-right: 30px;    
 }
 
 
