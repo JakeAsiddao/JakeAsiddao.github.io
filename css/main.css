@@ -151,19 +151,15 @@ margin-top: -8px;
 transition: all 250ms linear;
 }
 
-/*
-.banner {
-background: url("../assets/banner-2.jpg")  no-repeat center center fixed;
+
+
+
+#banner {
+/* background: url("../assets/banner-bg.jpg")  no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
-background-size: cover;
-width: 100%;
-height: 32rem;
-}
-*/
-
-#banner {
+background-size: cover; */
 width: 100%;
 }
 
@@ -172,17 +168,18 @@ padding-top: 100px;
 display: block;
 width: 80%;
 margin: 0 auto;
-padding-bottom: 150px;
+padding-bottom: 100px;
 }
 
 h1 {
 text-align: center;
-font-size: 24px;
+font-size: 46px;
+line-height: 65px;
 font-family: 'Montserrat', 'helvetica', sans-serif;
 font-weight: 900;
 text-align: center;
 color: #ff4e4e;
-letter-spacing: 3px;
+letter-spacing: 12px;
 margin-bottom: 40px;
 }
 
@@ -198,14 +195,6 @@ text-align: center;
 font-size: 20px;
 font-weight: 300;
 line-height: 32px;
-margin-bottom: 40px;
-}
-
-#banner {
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;   
 }
 
 #banner .social{
@@ -217,6 +206,8 @@ margin-bottom: 40px;
 #banner .social ul li img{
  width: 26px;
 margin: 0 20px;
+transition: all 150ms linear;
+
 }
 
 #banner .social ul li img:hover{
@@ -228,7 +219,28 @@ display: inline;
 }
 
 #banner .contact {
-margin-bottom: 40px;    
+margin-top: 55px; 
+margin-bottom: 20px;
+}
+
+#banner .button a{
+font-family: 'Montserrat',sans-serif;
+text-decoration: none;
+    padding: 14px 60px;
+font-size: 20px;
+    background-color: #ff4e4e;
+color: white;
+transition: all 150ms linear;
+-webkit-box-shadow: 0px 0px 30px -4px rgba(0,0,0,0.47);
+-moz-box-shadow: 0px 0px 30px -4px rgba(0,0,0,0.47);
+box-shadow: 0px 0px 30px -4px rgba(0,0,0,0.47);
+}
+
+#banner p a:hover {
+opacity: .8;   
+-webkit-box-shadow: 0px 0px 0px -6px rgba(0,0,0,0.47);
+-moz-box-shadow: 0px 0px 0px -6px rgba(0,0,0,0.47);
+box-shadow: 0px 0px 0px -6px rgba(0,0,0,0.47);
 }
 
 #banner .contact ul {
@@ -242,11 +254,12 @@ color: #ff4e4e;
 font-size: 16px;
 font-weight: 900;
 line-height: 26px;
- text-align: center;   
+text-align: center;
+padding-bottom: 20px
 }
 
 #banner .contact li i {
-padding-right: 10px;    
+padding-right: 2px;    
 }
 
 body {
@@ -269,6 +282,9 @@ background:#ff0;
 #work-kriteek {
 max-width: 100%;
 background-color: white;
+-webkit-box-shadow: 0px 0px 90px -26px rgba(0,0,0,0.47);
+-moz-box-shadow: 0px 0px 90px -26px rgba(0,0,0,0.47);
+box-shadow: 0px 0px 90px -26px rgba(0,0,0,0.47);
 }
 
 .kriteek{  
@@ -662,29 +678,29 @@ transition: all 100ms linear;
 
 .focus-content{
 margin: 0 auto;
-padding: 100px 0;
-max-width: 100%;
+width: 100%;
 }
 
 .focus img {
-width:250px;
+width:200px;
 margin: 0 auto;
 text-align: center;
 }
 
-.focus{
+
+.focus {
 max-width: 100%;
 text-align: center;
 }
 
 .focus-section h3 {
 font-family: 'Montserrat',sans-serif;
-color: #8d8d8d;
+color: black;
 }
 
 .focus-section {
 text-align: center;
-padding: 0 40px;   
+padding: 60px 0;
 }
 
 .focus-content p {
@@ -722,7 +738,7 @@ margin-top: 0;
 width: 80%;
 margin: 0 auto;
 padding-top: 22px;
-max-width: 220px;
+max-width: 230px;
 padding-bottom: 20px;
 }
 
@@ -747,9 +763,9 @@ font-size: 20px;
     background-color: #ff4e4e;
 color: white;
 transition: all 150ms linear;
--webkit-box-shadow: 0px 0px 40px -4px rgba(0,0,0,0.47);
--moz-box-shadow: 0px 0px 40px -4px rgba(0,0,0,0.47);
-box-shadow: 0px 0px 40px -4px rgba(0,0,0,0.47);
+-webkit-box-shadow: 0px 0px 30px -4px rgba(0,0,0,0.47);
+-moz-box-shadow: 0px 0px 30px -4px rgba(0,0,0,0.47);
+box-shadow: 0px 0px 30px -4px rgba(0,0,0,0.47);
 }
 
 #footer p a:hover {
@@ -760,12 +776,12 @@ box-shadow: 0px 0px 0px -6px rgba(0,0,0,0.47);
 }
 
 .footer-social img {
- width: 30px;   
+ width: 30px;
 }
 
 .footer-social li{
  display: inline;
-padding: 0 20px;
+padding: 20px 20px;
 }
 
 .footer-social a:hover{
@@ -918,7 +934,6 @@ font-size: 16px;
 font-weight: 800;
 line-height: 26px;
  text-align: center; 
-display: inline;
 margin: 0 20px;
 }    
     
@@ -1132,7 +1147,6 @@ height: 40rem;
 
 .focus-content{
 margin: 0 auto;
-padding: 100px 0;
 max-width: 90%;
 }
     
