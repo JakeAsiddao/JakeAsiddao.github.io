@@ -990,10 +990,10 @@ padding-bottom: 20px;
 }
     
 .kriteek-2{  
-background: url("../assets/kriteek/bg-1.jpg")  no-repeat center center fixed;
+background: url("../assets/kriteek/bg-1.jpg")  no-repeat center center;
 background-size: cover;
 width: 100%;
-height: 30rem;
+height: 700px;
 }
     
 .kriteek-3 img {
@@ -1227,7 +1227,8 @@ color: black;
 .banner-content {
 display: block;
 margin: 0 auto;
-padding-top: 210px; 
+padding-top: 210px;
+padding-bottom: 200px;
 width: 90%;
 }
     
@@ -1330,7 +1331,8 @@ color: black;
 .banner-content {
 display: block;
 margin: 0 auto;
-padding-top: 150px; 
+padding-top: 150px;
+padding-bottom: 200px;
 max-width: 600px;
 }
     
@@ -1413,7 +1415,6 @@ padding-top: 190px;
 display: block;
 max-width: 650px;
 margin: 0 auto;
-padding-bottom: 130px;
 }
     
     
