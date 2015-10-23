@@ -1112,7 +1112,7 @@ padding: 200px 0;
 /* work-stayready-bg-screen ============== */
 
 #work-stayready-bg-screen{  
-background: url("../assets/stayready/bg-screen.jpg")  no-repeat center center fixed;
+background: url("../assets/stayready/bg-screen.jpg")  no-repeat center center;
 background-size:cover;
 width: 100%;
 height: 700px;
