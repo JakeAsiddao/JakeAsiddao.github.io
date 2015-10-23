@@ -204,7 +204,7 @@ margin-bottom: 40px;
 }
 
 #banner .social ul li img{
- width: 26px;
+ width: 30px;
 margin: 0 20px;
 transition: all 150ms linear;
 
@@ -415,11 +415,6 @@ width: 350px;
 
 /* kriteek-4 ================== */
 
-#work-kriteek-4 {
-max-width: 100%;
-background-color: #00bfb3;
-}
-
 .kriteek-4 h3 {
 margin: 0 auto;
 width: 100%;
@@ -500,20 +495,6 @@ background: url("../assets/planet-ink/stationary.jpg")  no-repeat center center;
 background-size: cover;
 width: 100%;
 height: 20rem;
-}
-
-/* planet-ink-2 ================== */
-
-#planet-ink-2{
-background-color: white;   
-}
-
-#planet-ink-2 img {
- width: 300px;
-display: block;
-margin: 0 auto;
-padding-top: 100px;
-padding-bottom: 100px;
 }
 
 /* planet-ink-3 ================== */
@@ -617,7 +598,7 @@ display: block;
 background: url("../assets/stayready/bg-screen.jpg")  no-repeat center center;
 background-size: cover;
 width: 100%;
-height: 20rem;
+height: 400px;
 }
 
 /* ABOUT ====================================*/
@@ -1057,19 +1038,11 @@ width: 100%;
 height: 50rem;
 }
     
-#planet-ink-2 img {
- width: 600px;
-display: block;
-margin: 0 auto;
-padding-top: 200px;
-padding-bottom: 200px;
-}
-    
 #planet-ink-3{  
-background: url("../assets/planet-ink/bg-1.jpg")  no-repeat center center fixed;
+background: url("../assets/planet-ink/bg-1.jpg")  no-repeat center center;
 background-size: cover;
 width: 100%;
-height: 30rem;
+height: 700px;
 }
     
 #planet-ink-sketches{  
@@ -1140,9 +1113,9 @@ padding: 200px 0;
 
 #work-stayready-bg-screen{  
 background: url("../assets/stayready/bg-screen.jpg")  no-repeat center center fixed;
-background-size: cover;
+background-size:cover;
 width: 100%;
-height: 40rem;
+height: 700px;
 }
 
 .focus-content{
