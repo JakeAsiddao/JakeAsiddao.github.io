@@ -160,6 +160,7 @@ transition: all 250ms linear;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover; */
+/* Rectangle 217: */
 width: 100%;
 }
 
@@ -278,6 +279,88 @@ background:#ff0;
 }
 
 /* WORK =====================================*/
+
+#work-nxew {
+max-width: 100%;
+background-color: white;
+-webkit-box-shadow: 0px 0px 90px -26px rgba(0,0,0,0.47);
+-moz-box-shadow: 0px 0px 90px -26px rgba(0,0,0,0.47);
+box-shadow: 0px 0px 90px -26px rgba(0,0,0,0.47);    
+}
+
+.nxew{  
+margin: 0 auto;
+padding: 100px 0;
+max-width: 80%;
+}
+
+.nxew h2{
+margin: 0 auto;
+width: 100%;
+padding-bottom: 20px;
+font-family: 'Montserrat',sans-serif;
+font-weight: 800;
+text-align: center;    
+color: #626262;
+font-size: 28px;
+}
+
+.nxew h3 {
+margin: 0 auto;
+width: 100%;
+padding-bottom: 20px;
+font-family: 'Montserrat',sans-serif;
+font-weight: 600;
+text-align: center;    
+color: #98a0a8;
+font-size: 14px;   
+}
+
+.nxew p{
+color: #98a0a8;
+font-family: 'Montserrat',sans-serif;
+line-height: 28px;
+font-weight: 400;
+margin-top: 0;
+font-size: 16px;
+text-align: center;   
+}
+
+/* nxew-2 ================== */
+
+#work-nxew-2 {
+background-color: #f0f0f0;
+max-width: 100%;
+}
+
+.nxew-2{  
+margin: 0 auto;
+max-width: 80%;
+}
+
+#work-nxew-2 img{
+box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.25);
+width: 300px;
+}
+
+.screen-list ul {
+padding: 100px 0px;    
+}
+
+.screen-list li{
+text-align: center;
+padding: 40px 0px;
+}
+
+/* nxew-3 ================== */
+
+.nxew-3{  
+background: url("../assets/nxew/bg-screen.jpg")  no-repeat center center;
+background-size: cover;
+width: 100%;
+height: 20rem;
+}
+
 
 #work-kriteek {
 max-width: 100%;
@@ -928,6 +1011,34 @@ background-color: #white;
 .kriteek img {
 padding-top: 100px;  
 }
+    
+.nxew{  
+margin: 0 auto;
+padding: 100px 0;
+max-width: 800px;
+}
+
+.nxew h2{
+padding-top: 100px;
+margin: 0 auto;
+width: 60%;
+padding-bottom: 20px;
+font-family: 'Montserrat',sans-serif;
+font-weight: 800;
+text-align: center;    
+font-size: 40px;
+}
+
+.nxew p{
+color: #98a0a8;
+font-family: 'Montserrat',sans-serif;
+line-height: 28px;
+font-weight: 400;
+margin-top: 0;
+font-size: 16px;
+text-align: center;
+padding-bottom: 100px;  
+}
 
 .kriteek{  
 margin: 0 auto;
@@ -972,6 +1083,13 @@ padding-bottom: 20px;
     
 .kriteek-2{  
 background: url("../assets/kriteek/bg-1.jpg")  no-repeat center center;
+background-size: cover;
+width: 100%;
+height: 700px;
+}
+    
+.nxew-3{  
+background: url("../assets/nxew/bg-screen.jpg")  no-repeat center center;
 background-size: cover;
 width: 100%;
 height: 700px;
@@ -1319,6 +1437,10 @@ text-align: center;
 color: #ff4e4e;
 letter-spacing: 12px;
 margin-bottom: 40px;
+}
+    
+#work-nxew-2 img{
+width: 800px;
 }
     
 #planet-ink-4 img{
